@@ -8,6 +8,8 @@ import (
 func main() {
 	fmt.Println("== Welcome to Mess Go Round ===")
 
+	fmt.Println(getHTML("http://kardiogramma.org/forum"))
+
 	fmt.Println("Truly random integer between 0 and 10:", trulyRandomInt(10))
 
 	var arr qsintarray
